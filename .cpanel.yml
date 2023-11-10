@@ -1,0 +1,6 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/thecomp2/cicdtest.thecompletesoftech.in/
+    - /bin/cp * $DEPLOYPATH
